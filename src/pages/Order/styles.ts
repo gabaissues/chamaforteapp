@@ -27,7 +27,7 @@ export const Header = styled.View`
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 56px;
+  margin-bottom: 16px;
 `;
 
 export const User = styled.View`
@@ -49,7 +49,7 @@ export const Status = styled.Text`
 `
 
 export const Info = styled.View`
-  margin-top: 50px;
+  margin-top: 15px;
 `
 export const InfoBox = styled.View`
   align-items: center;

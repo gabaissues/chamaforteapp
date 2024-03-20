@@ -28,7 +28,7 @@ const LoginPage = ({ navigation }: any) => {
         </C.Text>
       </C.Header>
 
-      <C.Form>
+      <C.Form behavior="padding" style={{flex: 1}}>
         <C.Label>E-mail</C.Label>
         <C.Input placeholderTextColor={"#fafafa"} placeholder="E-mail" />
         <C.Label>Senha</C.Label>

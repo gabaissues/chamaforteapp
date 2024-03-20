@@ -4,7 +4,13 @@ import DoneIcon from "../../../assets/svgs/done";
 
 import * as C from "./styles";
 
-const DonePage = () => {
+const DonePage = ({ navigation }: any) => {
+  const handleClick = () => {
+
+    navigation.navigate('inicio')
+
+  }
+
   return (
     <C.Container>
       <C.Content>
@@ -13,7 +19,7 @@ const DonePage = () => {
         <C.Text fontSize="14px" textAlign="center">O seu pedido foi concluído com sucesso. Já foi inserido no nosso sistema.</C.Text>
       </C.Content>
 
-      <C.Button><C.Text color="#fafafa" padding="4px 16px">Navegar para o início</C.Text></C.Button>
+      <C.Button onPress={handleClick}><C.Text color="#fafafa" padding="4px 16px">Navegar para o início</C.Text></C.Button>
     </C.Container>
   );
 };

@@ -33,7 +33,7 @@ export const Text = styled.Text<{
 
 export const Image = styled.Image``;
 
-export const Form = styled.View`
+export const Form = styled.KeyboardAvoidingView`
   background-color: #DFDFDF;
   padding: 32px 64px; 
   flex: 1;
@@ -49,6 +49,7 @@ export const Input = styled.TextInput`
   background-color: #002B3A;
   color: #fafafa;
   padding: 10px 16px;
+  height: 46px;
   border-radius: 8px;
   margin-bottom: 16px;
 `
@@ -58,6 +59,6 @@ export const Button = styled.TouchableOpacity`
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin-top: auto;
+  margin-top: 16px;
   border-radius: 8px;
 `
